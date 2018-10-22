@@ -13,3 +13,7 @@ print(it,type(it))
 # print(next(it))
 # print(next(it))
 # print(next(it))
+
+
+generators=(x for x in range(1,10))
+print(generators,type(generators))
