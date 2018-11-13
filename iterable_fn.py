@@ -1,6 +1,8 @@
 l1=['中国移动','中国联通','中国电信']
 l2=[10086,10010,10000,9999]
 
+for t in zip(l1,l2):
+    print(t)
 
 for n,a in zip(l1,l2):
     print(n,a)
